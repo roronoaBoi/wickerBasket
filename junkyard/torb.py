@@ -57,7 +57,7 @@
 # basic call with pretty JSON
     # import requests
     # import json 
-    # token = '257da7a25dafdf453ff7511eceafdca3d6a5b0b7e301504733dfadb199aaa7c5'
+    # token = ''
     # url = "https://api.safetyculture.io/feed/users"
     # headers = {
     #     "accept": "application/json",
