@@ -17,4 +17,4 @@ for guesses in range (1,7):
 if guess == answer:
     print('Ayee... you got it! It took you ' + str(guesses) + ' tries!')
 else:
-    print('Sorry, you lose. The number I was thinking of is ' + str(answer) + '.')
+    print('Sorry, you lose. The number I was thinking of was ' + str(answer) + '.')
