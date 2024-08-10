@@ -1,3 +1,6 @@
+"""
+initial lint format
+"""
 while True:
     print('Who is the repo owner?')
     name = input()
