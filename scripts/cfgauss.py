@@ -1,4 +1,8 @@
-total = 0
+"""
+simple count for loop (cf gauss)
+"""
+
+TOTAL = 0
 for num in range(101):
-    total = total + num
-print(total)
+    TOTAL = TOTAL + num
+print(TOTAL)
