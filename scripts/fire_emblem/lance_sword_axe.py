@@ -48,6 +48,13 @@ while True:
     elif player_input == 'a' and comp_input == 'l':
         print('Victory!')
         wins = wins + 1
-    else:
+    elif player_input == 'l' and comp_input == 'a':
         print('Defeat!')
         losses = losses + 1
+    elif player_input == 's' and comp_input == 'l':
+        print('Defeat!')
+        losses = losses + 1
+    elif player_input == 'a' and comp_input == 's':
+        print('Defeat!')
+        losses = losses + 1    
+
