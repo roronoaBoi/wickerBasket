@@ -1,3 +1,7 @@
+"""
+simple num game for loops
+"""
+
 import random
 
 answer = random.randint(1,20)
