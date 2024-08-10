@@ -1,3 +1,9 @@
+"""
+fe_crit_sim.py
+
+A module for simulating critical hits in a game scenario.
+"""
+
 import random
 import sys
 # determines enemy crit chance
