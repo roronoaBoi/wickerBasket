@@ -8,12 +8,14 @@ ties = 0
 
 while True:
     print('%s Wins, %s Losses, %s Ties' % (wins,losses,ties))
-    print('Type (l)ance, (s)word, (a)xe, or (quit)')
-    player_input = input()
-    if player_input == 'q':
-        print('Thanks for playing!')
-        sys.exit()
-    if player_input not in ['l','s','a','q']:
+    while True:
+        print('Type (l)ance, (s)word, (a)xe, or (quit)')
+        player_input = input()
+        if player_input == 'q':
+            print('Thanks for playing!')
+            sys.exit()
+        if player_input in ['a','s','l','q']:
+            break
         print('You have to type (l)ance, (s)word, (a)xe, or (quit)!')
 
     if player_input == 'l':
