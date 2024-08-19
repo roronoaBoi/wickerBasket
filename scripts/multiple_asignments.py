@@ -6,7 +6,7 @@ weapon = ['sword','iron',45]
 # weapon_mat = weapon[1]
 # weapon_dur = weapon[2]
 
-#multiple
+#multiple, must be exact (ex 3 to 3 variables)
 weapon_class, weapon_mat, weapon_dur = weapon
 
 print(weapon_class, weapon_mat, weapon_dur)
