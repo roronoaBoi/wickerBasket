@@ -1,3 +1,7 @@
+"""a simple game based on the fire emblem triangle"""
+# pylint: disable=invalid-name
+# pylint: disable=multiple-imports
+# pylint: disable=consider-using-f-string
 import random, sys
 
 print('Lance, Sword, or Axe')
@@ -26,16 +30,15 @@ while True:
         print('Axe vs...')
 
     # display computer choice
-    comp_int = random.randint(1,3)
+    ops = ['l','s','a']
+    # replaced old code which used random.int with random.choice
+    comp_input = random.choice(ops)
 
-    if comp_int == 1:
-        comp_input = 'l'
+    if comp_input == 'l':
         print('... lance!')
-    elif comp_int == 2:
-        comp_input = 's'
+    elif comp_input == 's':
         print('...sword!')
-    elif comp_int == 3:
-        comp_input = 'a'
+    elif comp_input == 'a':
         print('... axe!')
 
     if player_input == comp_input:
@@ -58,5 +61,4 @@ while True:
         losses = losses + 1
     elif player_input == 'a' and comp_input == 's':
         print('Defeat!')
-        losses = losses + 1    
-
+        losses = losses + 1
