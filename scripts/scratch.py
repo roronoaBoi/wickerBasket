@@ -5,5 +5,4 @@ scratch.py
 scratch file that should be empty for commits...
 """
 
-print('testing and... ' + \
-      'what have you...')
+print('testing and... ')
