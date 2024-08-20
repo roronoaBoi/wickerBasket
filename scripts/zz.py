@@ -1,8 +1,8 @@
 # pylint: disable=invalid-name
 """
-scrap.py
+zz.py
 
-scrap file that should be empty for commits...
+simple zigzag automation
 """
 
 import time
