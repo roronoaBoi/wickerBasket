@@ -9,3 +9,5 @@ print(a_list) # ['option 0', 'option 2', 'option 3']
 
 # a_tuple[0] = 'option 0' #can't do this! tuples are immutable
 # print(a_tuple) #returns error
+
+tuple_with_one_value = ('option 1',) #trailing comma allows this to be processed as a tuple.
