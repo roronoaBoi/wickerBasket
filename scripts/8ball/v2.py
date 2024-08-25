@@ -5,6 +5,7 @@ An 8 ball that is an 8 ball because random.choice is way less painful than the v
 if you try to be a funny guy, the 8 ball will be a jerk.
 """
 import random
+import sys
 
 options = [
     'it is certain',
@@ -24,12 +25,15 @@ hate_message = [
     'i can\'t with you.',
     'i\'m done... press \'s\' next time.'
 ]
-
-print('press \'s\' to shake the magic 8 ball')
-shake = input()
-if shake != 's':
-    print('what\'s your name?')
-    name = input()
-    print('well ' + name + ' ... ' + random.choice(hate_message))
-else:
-    print(random.choice(options))
+while True:
+    print('press \'s\' to shake the magic 8 ball, or \'q\' tio quit.')
+    shake = input()
+    if shake not in ['q','s']:
+        print('what\'s your name?')
+        name = input()
+        print('well ' + name + ' ... ' + random.choice(hate_message))
+    elif shake == 'q':
+        print('See ya!')
+        sys.exit()
+    else:
+        print(random.choice(options))
