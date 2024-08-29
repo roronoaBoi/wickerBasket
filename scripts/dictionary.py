@@ -5,6 +5,7 @@ dictionary.py
 basics of dictionaries and keys, values, and items
 """
 #pylint: disable=consider-iterating-dictionary
+#pylint: disable=expression-not-assigned
 
 weapon = {
     'class': 'sword',
