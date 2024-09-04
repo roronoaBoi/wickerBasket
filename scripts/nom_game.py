@@ -4,8 +4,8 @@ simple num game for loops
 
 import random
 
-answer = random.randint(1,20)
-print('I am thinking of a number between 1 and 20.')
+answer = random.randint(1,100)
+print('I am thinking of a number between 1 and 100.')
 
 for guesses in range (1,7):
     print('Try to guess the number!')
