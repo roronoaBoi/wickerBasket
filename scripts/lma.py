@@ -2,7 +2,6 @@
 dont ask
 """
 #pylint: disable
-import sys
 import random
 import time
 
@@ -16,5 +15,3 @@ while True:
         'desc': 'event logged in local cache'
     })
     print('----------')
-
-    
