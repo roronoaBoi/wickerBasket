@@ -1,7 +1,7 @@
 """
 seeing if i can do tic tac toe off the dome... i cant, but I will be back!
 this has to have a loop that removes options from the hash as they are selected.
-when one of the 9 victory criteria is met, the win needs to be logged and the hash
+when one of the 8 victory criteria is met, the win needs to be logged and the hash
 has to be reset. else, the tie needs to be logged and the hash reset. every move has to
 check for a win. this could be achieved with the i in range function in v1
 """
