@@ -9,12 +9,17 @@ python3 -m venv <name of venv>
 
 Then, activate it:
 ```bash
-source <name of venv/bin/activate
+source <name of venv>/bin/activate
 ```
 
 Since the requirements are already packaged, run the following:
 ```bash
 pip install -r requirements.txt
+```
+
+To deactivate a virtual environment, simply run:
+```bash
+deactivate
 ```
 
 ### Other Reference:
