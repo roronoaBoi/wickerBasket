@@ -20,7 +20,7 @@ for qnum in range(numOfQs):
     try:
         pyip.inputStr(board, allowRegexes = ['^%s$' % (num_one * num_two)],
                       blockRegexes = [('.*', 'Wrong!')],
-                      timeout = 8, limit = 3)
+                      timeout = 5, limit = 3)
     except pyip.TimeoutException:
         print('ooh, out of time')
     except pyip.RetryLimitException:
